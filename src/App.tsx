@@ -3,7 +3,7 @@ import CookieScene from './components/RainbowCookie';
 
   function App() {
     return (
-      <div>
+      <div style={{ border: "2px solid darkgray", borderRadius: "2px", height: "85vh", width: "95vw"}}>
         <CookieScene />
       </div>
     )
